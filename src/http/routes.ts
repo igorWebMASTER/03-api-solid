@@ -1,4 +1,6 @@
-import { register } from "../http/controllers/register";
-import { app } from "../app";
+import { register } from '../http/controllers/register'
+import { FastifyInstance } from 'fastify'
 
-app.post('/users', register)
+export async function appRoutes(app: FastifyInstance) {
+  app.post('/users', register)
+}
