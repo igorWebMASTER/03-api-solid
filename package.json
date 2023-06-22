@@ -15,6 +15,7 @@
   "license": "ISC",
   "devDependencies": {
     "@rocketseat/eslint-config": "1.2.0",
+    "@types/bcryptjs": "2.4.2",
     "@types/node": "18.14.6",
     "@typescript-eslint/eslint-plugin": "5.54.1",
     "prisma": "4.11.0",
